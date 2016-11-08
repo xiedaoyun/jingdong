@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/*中间部分开始*/
+
+/*底部背景开始*/
+.banner {
+    position: relative;
+}
+.banner a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 613px;
+    background: url(../images/bg.jpg) no-repeat top center;
+}
+/*底部背景结束*/
+
+/*中间部分开始*/
+.center {
+    position: relative;
+    /*z-index: 1;*/
+}
+/*轮播图开始*/
+.slider {
+    width: 730px;
+    height: 453px;
+    background: purple;
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+/*图片小圆点开始*/
+.slider-nav{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.slider-nav li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.slider-nav .selected{
+    background-color: #B61B1F;
+}
+.slider-prev ,.slider-next{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    background-color: rgba(0,0,0,.2);
+    font:500 18px/62px "simsun";
+    text-align: center;
+}
+.slider-prev {
+    left: 0;
+}
+.slider-next {
+    right: 0;
+}
+/*图片小圆点结束*/
+/*轮播图结束*/
+
+
+/*右侧生活部分开始*/
+.extra {
+    width: 248px;
+    border: 1px solid #E4E4E4;
+    border-bottom: 0;
+    margin-top: 12px;
+    float: right;
+}
+/*新闻部分开始*/
+.news{
+    border-bottom: 1px solid #E4E4E4;
+}
+.news .dt{
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #E8E8E7;
+}
+.news h2{
+    font: 400 14px/32px "microsoft yahei";
+    color: #666;
+    float: left;
+}
+.news .dt .more{
+    float: right;
+    font-family: consolas;
+}
+.news .dd ul{
+    padding: 5px 0 0 15px;
+}
+.news .dd li{
+    line-height: 24px;
+}
+.news .dd span{
+    font-weight: 700;
+    margin-right: 6px;
+}
+/*新闻部分结束*/
+
+.lifeserv{
+    overflow: hidden;
+}
+.lifeserv ul{
+    width: 260px; 
+}
+.lifeserv li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    float: left;
+    margin-left: -1px;
+    border-top: 0;
+
+}
+.lifeserv li a{
+    display: block;
+    position: relative;
+    padding-top: 41px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.lifeserv li i{
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url(../images/life.png) no-repeat;
+}
+.right-pic{
+    margin-top: 5px;
+    float: right;
+}
+/*右侧生活部分开始*/
+
+/*中间部分结束*/
+
+/*底部图片开始*/
+.fn{
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.fn .left {
+    float: left;
+}
+.fn .right{
+    width: 1000px;
+    height: 160px;
+    float: left;
+}
+.fn ul{
+    width: 6000px;
+}
+.fn li{
+    float: left;
+    margin-right: 1px;
+}
+/*底部图片结束*/
